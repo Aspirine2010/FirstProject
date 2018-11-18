@@ -7,13 +7,12 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
-
+//клиентское-приложение
 public class ClSocket {
     public static void main(String[] args) {
   new myWindow();
     }
 
-//просто комментарий
     public static class myWindow  extends JFrame {
         private JTextField textField;
         private  JTextArea textArea;
