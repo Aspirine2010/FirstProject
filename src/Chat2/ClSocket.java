@@ -13,7 +13,7 @@ public class ClSocket {
   new myWindow();
     }
 
-
+//просто комментарий
     public static class myWindow  extends JFrame {
         private JTextField textField;
         private  JTextArea textArea;
