@@ -22,12 +22,17 @@ public class MyServer {
                writer.println("Эхо :"+ mes);
                writer.flush();
            }
+           //рубим ридер потому что он заебал
+           writer.close();
 
        }
+
        catch (IOException e){
            e.printStackTrace();
            System.out.println("Ошибка ебаного сервера, он чё-то выёбывается");
        }
+
+       //ебашим сцуку
        finally {
            try {
                serverSocket.close();

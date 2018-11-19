@@ -5,7 +5,6 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
-//серверное приложение
 public class SerSocket {
     public static void main(String[] args) {
         ServerSocket serverSocket = null;
